@@ -1,4 +1,4 @@
-import 'package:controle_fornecedores/widgets/buttonSearchBar.dart';
+import 'package:controle_fornecedores/widgets/myButton.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -36,7 +36,9 @@ class SearchInput extends StatelessWidget {
                 endIndent: 5,
                 indent: 5,
               ),
-              ButtonSearchBar(
+              MyButton(
+                height: 37,
+                width: 37,
                 icon: FontAwesomeIcons.search,
                 onTap: () {},
               )

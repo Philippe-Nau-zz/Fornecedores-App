@@ -11,6 +11,7 @@ class MyCircleAvatar extends StatelessWidget {
     return Container(
       height: 46,
       width: 46,
+      margin: EdgeInsets.only(left: 10),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(23),
         border: Border.all(color: Colors.white, width: 2),
